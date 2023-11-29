@@ -1,2 +1,14 @@
-console.log(undefined);
-console.log(null);
+/**
+ * 1
+ * 50
+ * 60
+ * 88
+ *
+ * 2.5
+ * 10.500
+ *
+ * 2.5e2 => 2.5 * 10^2
+ *
+ */
+
+console.log("a" * 3);
