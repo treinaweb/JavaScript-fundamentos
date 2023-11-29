@@ -1,1 +1,2 @@
-console.log(typeof false);
+console.log(undefined);
+console.log(null);
