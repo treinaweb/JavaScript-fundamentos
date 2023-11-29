@@ -1,7 +1,5 @@
-let nome = "Amauri",
-    idade = 33,
-    corDoUsuario = "azul";
+const nome = "Amauri";
 
-idade = true;
+nome = "Alberto";
 
-console.log(idade);
+console.log(nome);
