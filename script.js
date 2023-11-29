@@ -1,5 +1,3 @@
-const nome = "Amauri";
+let nomeDoUsuario = null;
 
-nome = "Alberto";
-
-console.log(nome);
+console.log(nomeDoUsuario);
