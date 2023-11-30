@@ -1,7 +1,12 @@
-let idade = 99;
+let hora = 11,
+    mensagem = "";
 
-// idade--;
+if (hora < 12) {
+    mensagem = "Bom dia";
+} else if (hora >= 12 && hora < 18) {
+    mensagem = "Boa tarde";
+} else {
+    mensagem = "Boa noite";
+}
 
-console.log(--idade);
-
-console.log(idade);
+console.log(mensagem);
