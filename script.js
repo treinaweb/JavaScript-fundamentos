@@ -1,14 +1,7 @@
-let idade = 25;
-//idade = idade ** 2;
-//idade **= 2;
+let idade = 99;
 
-let texto = "Oi ";
+// idade--;
 
-//texto = texto + "tudo bem?";
-texto += "tudo bem?";
+console.log(--idade);
 
-//texto = texto + " Como vai?"
-texto += " Como vai?";
-
-
-console.log(texto);
+console.log(idade);
