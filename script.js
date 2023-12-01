@@ -1,8 +1,11 @@
-let contador = 0,
-    palavra = "TreinaWeb";
+let numero = 1;
 
-while (contador < palavra.length) {
-    contador++;
-}
+// while (numero < 1) {
+//     console.log("Repetição - " + numero);
+//     numero++;
+// }
 
-console.log(contador);
+do {
+    console.log("Repetição - " + numero);
+    numero++;
+} while (numero < 1);
