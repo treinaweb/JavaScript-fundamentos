@@ -1,11 +1,6 @@
-let numero = 1;
-
-// while (numero < 1) {
-//     console.log("Repetição - " + numero);
-//     numero++;
-// }
-
-do {
-    console.log("Repetição - " + numero);
-    numero++;
-} while (numero < 1);
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        break;
+    }
+    console.log(i);
+}
